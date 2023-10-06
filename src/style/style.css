@@ -1,15 +1,12 @@
+
+
 @import url('reset.css');
 @import url('global.css');
 
 body{
     background-color: #B9001f;
-    
 }
 
-a{
-    text-decoration: none;
-    color: #fff;
-}
 
 body::before{
     content: "";
@@ -38,6 +35,17 @@ body::before{
     margin: 0 1.25rem;
 
     
+}
+
+.s-menu_item a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
 }
 
 .s-menu_icon{
@@ -149,4 +157,3 @@ body::before{
     transform: scale(1.1);
 
 }
-
