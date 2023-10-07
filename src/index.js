@@ -3,13 +3,22 @@ import ReactDOM from 'react-dom/client';
 import '../src/style/style.css'
 import reportWebVitals from './reportWebVitals';
 import HomePage from './App';
+import TobeyPage from './pages/tobey-page';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <HomePage />
-  </React.StrictMode>
+  
+  <HashRouter>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/tobey-page" element={<TobeyPage />} />
+    </Routes>
+  </HashRouter>
+
+
 );
 
 // If you want to start measuring performance in your app, pass a function
