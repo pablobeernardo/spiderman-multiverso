@@ -9,9 +9,11 @@ export default function ButtonsControl() {
                     01
                 </div>
             </Link>
+            <Link to="/tom-page" class="s-controller_button">
             <div class="s-controller_button">
                 02
             </div>
+            </Link>
             <div class="s-controller_button">
                 03
             </div>

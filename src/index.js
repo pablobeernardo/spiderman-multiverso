@@ -4,6 +4,7 @@ import '../src/style/style.css'
 import reportWebVitals from './reportWebVitals';
 import HomePage from './App';
 import TobeyPage from './pages/tobey-page';
+import TomPage from './pages/tom-page';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 
@@ -15,6 +16,7 @@ root.render(
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/tobey-page" element={<TobeyPage />} />
+      <Route path='/tom-page' element={<TomPage />} />
     </Routes>
   </HashRouter>
 
