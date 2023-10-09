@@ -15,7 +15,7 @@ export default function NavHome(){
             <Link to="/tobey-page">Tobey Maguire</Link>
           </li>
           <li class="s-menu_item">
-            <a href="#">Andrew Garfield</a>
+            <Link to="/andrew-page">Andrew Garfield</Link>
           </li>
           <li class="s-menu_item">
             <Link to="/tom-page">Tom Holland</Link>

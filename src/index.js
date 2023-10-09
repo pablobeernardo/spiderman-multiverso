@@ -6,6 +6,7 @@ import HomePage from './App';
 import TobeyPage from './pages/tobey-page';
 import TomPage from './pages/tom-page';
 import { HashRouter, Routes, Route } from 'react-router-dom';
+import AndrewPage from './pages/andrew-page';
 
 
 
@@ -17,6 +18,7 @@ root.render(
       <Route path="/" element={<HomePage />} />
       <Route path="/tobey-page" element={<TobeyPage />} />
       <Route path='/tom-page' element={<TomPage />} />
+      <Route path='/andrew-page' element={<AndrewPage />} />
     </Routes>
   </HashRouter>
 

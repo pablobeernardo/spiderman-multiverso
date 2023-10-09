@@ -15,15 +15,16 @@ export default function TomPage() {
                     <div className="menu-info">Ano 2002</div>
                     <div className="menu-info">Direção: Sam Raimi</div>
                 </div>
-                <p>Sinopse: Depois de ser picado por uma aranha geneticamente modificada,
-                    Peter Parker ganha super poderes e as habilidades da aranha para se agarrar a
-                    qualquer superfície. Ele promete usá-los para combater o crime e começa a entender
-                    as palavras de seu querido tio Ben: com grandes poderes vêm grandes responsabilidades.
+                <p>Sinopse: Peter Parker está em uma viagem de duas semanas 
+                    pela Europa, ao lado de seus amigos de colégio, quando é surpreendido 
+                    pela visita de Nick Fury. Convocado para mais uma missão heroica, ele precisa enfrentar 
+                    vários vilões que surgem em cidades-símbolo do continente, como Londres, Paris e Veneza, e 
+                    também a aparição do enigmático Mysterio.
                 </p>
             </div>
             <div className="div-trailler">
                 <img src="../../assets/youtube-svgrepo-com.svg" alt="logo-youtube" />
-                <a href="https://www.youtube.com/watch?v=rk-dF1lIbIg" target="_blank">Assista o trailer</a>
+                <a href="https://www.youtube.com/watch?v=MqQdHaBtvGs" target="_blank">Assista o trailer</a>
             </div>
             <div className="galery-photos">
                 <img src="../../assets/tom1.png" alt="poster1" />
